@@ -10,74 +10,82 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Mekanın Sahibi",
-          artist: "Norm Ender",
+          name: "Aura 10/10 ",
+          artist: "Hiphop Tamizha",
           cover: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/img/1.jpg",
-          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/mp3/1.mp3",
+          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/1.mp3",
           url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
           favorited: false
         },
         {
-          name: "Everybody Knows",
-          artist: "Leonard Cohen",
+          name: "Aathadi Aathad",
+          artist: "Bhavatharini, Tippu, Dhanush & Abhay Jodhpurkar",
           cover: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/img/2.jpg",
-          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/mp3/2.mp3",
+          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/2.mp3",
           url: "https://www.youtube.com/watch?v=Lin-a2lTelg",
           favorited: true
         },
         {
-          name: "Extreme Ways",
-          artist: "Moby",
+          name: "Ayyayo Nenju",
+          artist: "S. P. Balasubrahmanyam, S. P. B. Charan, Prashanthini",
           cover: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/img/3.jpg",
-          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/mp3/3.mp3",
+          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/3.mp3",
           url: "https://www.youtube.com/watch?v=ICjyAe9S54c",
           favorited: false
         },
         {
-          name: "Butterflies",
-          artist: "Sia",
+          name: "Goindhamma",
+          artist: "Kaushik Krish, Gana Vinoth, Gana Ulagam Dharani, Gana Sudhakar",
           cover: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/img/4.jpg",
-          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/mp3/4.mp3",
+          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/4.mp3",
           url: "https://www.youtube.com/watch?v=kYgGwWYOd9Y",
           favorited: false
         },
         {
-          name: "The Final Victory",
-          artist: "Haggard",
+          name: "Innum Enna Thozha",
+          artist: "Balram, Naresh Iyer & Suchith Suresan",
           cover: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/img/5.jpg",
-          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/mp3/5.mp3",
+          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/5.mp3",
           url: "https://www.youtube.com/watch?v=0WlpALnQdN8",
           favorited: true
         },
         {
-          name: "Genius ft. Sia, Diplo, Labrinth",
-          artist: "LSD",
+          name: "Pappali Pazhamey",
+          artist: "Hiphop Tamizha, Gana Vinoth, Gana Ulagam Dharani",
           cover: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/img/6.jpg",
-          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/mp3/6.mp3",
+          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/6.mp3",
           url: "https://www.youtube.com/watch?v=HhoATZ1Imtw",
           favorited: false
         },
         {
-          name: "The Comeback Kid",
-          artist: "Lindi Ortega",
+          name: "Roja Kadale",
+          artist: "Chinmayi, Shankar Mahadevan, Sunidhi Chauhan",
           cover: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/img/7.jpg",
-          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/mp3/7.mp3",
+          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/7.mp3",
           url: "https://www.youtube.com/watch?v=me6aoX0wCV8",
           favorited: true
         },
         {
-          name: "Overdose",
-          artist: "Grandson",
+          name: "Unn Perai Sollum",
+          artist: "G. V. Prakash Kumar, Naresh Iyer, Shreya Ghoshal, Haricharan",
           cover: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/img/8.jpg",
-          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/mp3/8.mp3",
+          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/8.mp3",
           url: "https://www.youtube.com/watch?v=00-Rl3Jlx-o",
           favorited: false
         },
         {
-          name: "Rag'n'Bone Man",
-          artist: "Human",
+          name: "Thodu Vaanam",
+          artist: "Hariharan, Shakthishree Gopalan",
           cover: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/img/9.jpg",
-          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/mp3/9.mp3",
+          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/9.mp3",
+          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          favorited: false
+        },
+         {
+          name: "Yamma Yamma",
+          artist: "S. P. Bala & Swetha Menon",
+          cover: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/img/10.jpg",
+          source: "https://raw.githubusercontent.com/sreejithsureshkumar7-sketch/Mini-player-master/main/10.mp3",
           url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
           favorited: false
         }
